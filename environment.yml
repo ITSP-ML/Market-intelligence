@@ -10,13 +10,19 @@ dependencies:
   - seaborn
   - matplotlib
   - python-dotenv 
-  - requests==2.27.1 
+  - requests==2.27.1
+  - openpyxl
   - pip
   - pip:
     - -e .  # make the project editable package, conda >= 4.4 only
     - --trusted-host pypi.python.org --trusted-host pypi.org --trusted-host files.pythonhosted.org # to avoid problems with proxies
-    - tweepy
-    - wordcloud 
+    - tweepy==3.10
+    - wordcloud
+    - selenium==4.2.0
+    - fake-useragent
+    - beautifulsoup4
+    - lxml
+
 
     
   
